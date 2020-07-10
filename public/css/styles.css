@@ -1,0 +1,141 @@
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+.main-content {
+  width: 88%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  padding-top: 18px;
+}
+
+.main-content__img {
+  width: 40.9167px;
+  height: 35.0167px;
+}
+
+.main-content__title {
+  font-size: 1.45em;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.main-content__form {
+  width: 100%;
+  max-width: 570px;
+  height: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.main-content__user, .main-content__password {
+  background-color: #f5f8fa;
+  width: 96%;
+  height: 58.38px;
+  border-bottom: 3px solid #657786;
+  padding-left: 10px;
+  border-radius: 3px;
+}
+
+.main-content__user--label, .main-content__password--label {
+  font-size: .8em;
+  color: #657786;
+}
+
+.main-content__user--input, .main-content__password--input {
+  margin-top: 5px;
+  width: 98%;
+  border: transparent;
+  background-color: #f5f8fa;
+}
+
+.main-content__button {
+  color: #fff;
+  background-color: #8ed0f8;
+  border: #8ed0f8;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  height: 46px;
+  padding-bottom: 6px;
+}
+
+.main-content__links {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-content__links--first, .main-content__links--second {
+  display: block;
+  text-decoration: none;
+  color: #1bb8f3;
+  font-size: .9em;
+  text-align: center;
+}
+
+.main-content__links--first:hover, .main-content__links--second:hover {
+  text-decoration: underline;
+}
+
+.main-content__links--first {
+  width: 50%;
+}
+
+.main-content__links--point {
+  width: 10%;
+  text-align: center;
+}
+
+.main-content__links--second {
+  width: 40%;
+}
+
+@media screen and (min-width: 350px) {
+  .main-content__links {
+    max-width: 400px;
+  }
+  .main-content__links--first, .main-content__links--second {
+    text-align: center;
+  }
+  .main-content__links--first {
+    max-width: 220px;
+  }
+  .main-content__links--second {
+    max-width: 175px;
+  }
+  .main-content__links--point {
+    width: 2%;
+    line-height: 10px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
