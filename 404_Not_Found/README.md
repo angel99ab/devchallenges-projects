@@ -33,7 +33,7 @@
 
 ## Overview
 
-![screenshot](./assets/previews/desktop.png)
+<img src="./assets/previews/desktop.png" style="border-radius: 8px; box-shadow: 0px 0px 10px #979797;">
 
 A basic 404 error page using HTML and CSS from the Responsive Web Developer path.
 
