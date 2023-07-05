@@ -33,7 +33,7 @@
 
 ## Overview
 
-![screenshot](./assets/previews/desktop.png)
+![screenshot](./assets/previews/desktop.jpg)
 
 A basic page showing the members of the team using HTML and CSS from the Responsive Web Developer path.
 
