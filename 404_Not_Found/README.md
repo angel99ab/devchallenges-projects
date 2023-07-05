@@ -66,8 +66,13 @@ This application/site was created as a submission to a [DevChallenges](https://d
 To run this application you only need to clone the repository using [Git](https://git-scm.com). From your command line:
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/ananyalohani/mausam.git
+# Clone all the projects
+$ git clone https://github.com/angel99ab/devchallenges-projects.git
+
+# Enter in the folder
+$ cd 404_Not_Found/
+
+# Open the index.html
 ```
 
 ## Acknowledgements
