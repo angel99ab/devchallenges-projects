@@ -54,9 +54,7 @@ header {
   position: absolute;
   left: 0;
   top: 0;
-  display: flex;
-  align-items: center;
-  opacity: 0;
+  display: none;
   width: 100vw;
   height: 100vh;
   z-index: 10;
@@ -64,7 +62,8 @@ header {
 }
 
 .navigation--open {
-  opacity: 1;
+  display: flex;
+  align-items: center;
   animation: slide-in 0.3s ease-in-out forwards;
 }
 
