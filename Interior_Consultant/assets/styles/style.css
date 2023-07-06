@@ -1,0 +1,165 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 12px 24px;
+  min-height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(24, 23, 25, 1);
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.logo {
+  color: inherit;
+  text-decoration: none;
+}
+
+.logo__name {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 8px 12px;
+  font-family: 'Crimson Pro', serif;
+  font-weight: 200;
+  font-size: 14px;
+  border: 1px solid #fff;
+}
+
+.project {
+  margin-bottom: 148px;
+}
+
+.project__img {
+  max-width: 100%;
+}
+
+.hamburger {
+  width: 38px;
+  height: 38px;
+}
+
+.navigation {
+  display: none;
+}
+
+.hamburger__img {
+  width: inherit;
+  filter: invert();
+}
+
+.project__header {
+  margin-bottom: 37px;
+}
+
+.project__title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Lora', serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.project__description {
+  margin-bottom: 25px;
+  max-width: 250px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.project__link {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  color: #fff;
+  text-decoration: none;
+}
+
+.project__read-more {
+  margin-right: 12px;
+  font-weight: 700;
+}
+
+.project__arrow {
+  filter: invert();
+}
+
+.project__body {
+  position: relative;
+}
+
+.designer-card {
+  position: absolute;
+  top: 80%;
+  right: 3%;
+  padding: 8px 18px 0;
+  width: 300px;
+  height: 138px;
+  background-color: rgba(24, 23, 25, 1);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.designer-card__content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.designer-card__img {
+  margin-right: 14px;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.designer-card__author {
+  margin-bottom: 6px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.designer-card__job {
+  margin-top: 0;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgba(130, 130, 130, 1);
+}
+
+.designer-card__author,
+.designer-card__job {
+  font-weight: 500;
+}
+
+.designer-card__description {
+  margin-top: 0px;
+  max-width: 210px;
+  font-family: 'Lora', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+.developer {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Montserrat', monospace;
+  font-weight: 500;
+  text-align: center;
+  line-height: 17px;
+  color: rgba(169, 169, 169, 1);
+}
+
+.developer__link {
+  font-weight: 700;
+  color: inherit;
+}

@@ -8,7 +8,92 @@
       type="image/x-icon"
       href="./assets/icons/devchallenges.png"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200&family=Lora:wght@500;700&family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/styles/normalize.css" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
     <title>Interior Consultant | Devchallenges</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a class="logo" href="#"><h1 class="logo__name">THIS INTERIOR</h1></a>
+      <div class="hamburger" id="hamburger">
+        <img
+          class="hamburger__img"
+          src="./assets/icons/menu_FILL0_wght400_GRAD0_opsz24.svg"
+          alt="menu icon"
+        />
+      </div>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Collection</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">About</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="project">
+        <div class="project__header">
+          <h2 class="project__title">Modern interior</h2>
+          <p class="project__description">
+            A full-Service residential & commercial interior design and staging
+            company offering professional organizing & eco-services.
+          </p>
+          <a class="project__link" href="#">
+            <span class="project__read-more">Read more</span>
+            <img
+              class="project__arrow"
+              src="./assets/icons/arrow_right_alt_FILL0_wght400_GRAD0_opsz24.svg"
+              alt="Read more right arrow icon"
+            />
+          </a>
+        </div>
+        <div class="project__body">
+          <img
+            class="project__img"
+            src="./assets/images/photo1.png"
+            alt="designer work image"
+          />
+          <div class="designer-card" id="designer-card">
+            <div class="designer-card__content">
+              <img
+                class="designer-card__img"
+                src="./assets/images/photo2.png"
+                alt="Aliza Webber profile image"
+              />
+              <div class="designer-card__info-author">
+                <p class="designer-card__author">Aliza Webber</p>
+                <p class="designer-card__job">Interior designer</p>
+              </div>
+            </div>
+            <p class="designer-card__description">
+              Designed in 2020 by Aliza Webber
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="developer">
+        created by
+        <a class="developer__link" href="https://github.com/angel99ab"
+          >angel99ab</a
+        >
+        - devChallenges.io
+      </p>
+    </footer>
+    <script src="./assets/scripts/main.js"></script>
+  </body>
 </html>
