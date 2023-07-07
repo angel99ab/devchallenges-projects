@@ -227,3 +227,182 @@ main {
   font-weight: 700;
   color: inherit;
 }
+
+@media (min-width: 480px) {
+  header {
+    height: 90px;
+  }
+
+  body {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .project__description {
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 720px) {
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    position: initial;
+    flex-basis: 56%;
+    display: initial;
+    max-width: 500px;
+    height: initial;
+    transform: translateX(0);
+  }
+
+  .navigation__list {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+
+  .navigation__item {
+    margin-bottom: 0;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .designer-card {
+    padding: 18px 22px 0;
+    width: 340px;
+    height: 169px;
+  }
+
+  .designer-card__content {
+    margin-bottom: 12px;
+  }
+
+  .designer-card__img {
+    margin-right: 18px;
+    width: 48px;
+    height: 48px;
+  }
+
+  .designer-card__author {
+    font-size: 14px;
+  }
+
+  .designer-card__job {
+    font-size: 10px;
+  }
+
+  .designer-card__description {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 900px) {
+  header {
+    height: 110px;
+    margin-bottom: 70px;
+  }
+
+  body {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .project {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .project__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .project__title {
+    margin-top: 0;
+  }
+
+  .project__body {
+    width: 60%;
+    max-width: 737px;
+  }
+
+  .project__description {
+    margin-top: 0;
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 1400px) {
+  header {
+    margin-bottom: 130px;
+  }
+
+  body {
+    padding-left: 77px;
+    padding-right: 77px;
+  }
+
+  main {
+    margin-bottom: 239px;
+  }
+
+  .navigation__list {
+    font-size: 18px;
+  }
+
+  .project__title {
+    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 61px;
+  }
+
+  .project__description {
+    margin-bottom: 48px;
+    max-width: 410px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .project__link {
+    font-size: 18px;
+  }
+
+  .designer-card {
+    padding-left: 31px;
+    width: 410px;
+    height: 189px;
+  }
+
+  .designer-card__content {
+    margin-bottom: 25px;
+  }
+
+  .designer-card__img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .designer-card__job {
+    font-size: 12px;
+  }
+
+  .designer-card__description {
+    max-width: 287px;
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  header {
+    margin-bottom: 100px;
+  }
+
+  .project__body {
+    max-width: 900px;
+  }
+}
