@@ -9,14 +9,5 @@ hamburger.addEventListener('click', () => {
     hamburgerImg.src = './assets/icons/menu_FILL0_wght400_GRAD0_opsz24.svg';
   }
 
-  if (navigation.classList.contains('navigation--open')) {
-    navigation.classList.add('navigation--close');
-
-    setTimeout(() => {
-      navigation.classList.remove('navigation--open');
-      navigation.classList.remove('navigation--close');
-    }, 300);
-  } else {
-    navigation.classList.add('navigation--open');
-  }
+  navigation.classList.toggle('navigation--open');
 });
