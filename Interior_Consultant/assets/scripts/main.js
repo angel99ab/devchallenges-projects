@@ -10,4 +10,5 @@ hamburger.addEventListener('click', () => {
   }
 
   navigation.classList.toggle('navigation--open');
+  document.body.classList.toggle('body--hide-overflow-y');
 });

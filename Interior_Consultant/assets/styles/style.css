@@ -10,6 +10,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-color: rgba(24, 23, 25, 1);
   color: #fff;
+  overflow-y: initial;
 }
 
 header {
@@ -17,6 +18,14 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 70px;
+}
+
+main {
+  margin-bottom: 148px;
+}
+
+.body--hide-overflow-y {
+  overflow-y: hidden;
 }
 
 .logo {
@@ -35,14 +44,6 @@ header {
   border: 1px solid #fff;
 }
 
-.project {
-  margin-bottom: 148px;
-}
-
-.project__img {
-  max-width: 100%;
-}
-
 .hamburger {
   width: 38px;
   height: 38px;
@@ -56,7 +57,7 @@ header {
   top: 0;
   display: flex;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   z-index: 10;
   background-color: rgba(24, 23, 25, 1);
@@ -114,6 +115,10 @@ header {
   filter: invert();
 }
 
+.project__img {
+  max-width: 100%;
+}
+
 .project__header {
   margin-bottom: 37px;
 }
@@ -132,6 +137,7 @@ header {
   max-width: 250px;
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  line-height: 17px;
 }
 
 .project__link {
@@ -214,6 +220,7 @@ header {
   text-align: center;
   line-height: 17px;
   color: rgba(169, 169, 169, 1);
+  z-index: 0;
 }
 
 .developer__link {
