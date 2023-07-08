@@ -70,7 +70,7 @@ To run this application you only need to clone the repository using [Git](https:
 $ git clone https://github.com/angel99ab/devchallenges-projects.git
 
 # Enter in the folder
-$ cd 404_Not_Found/
+$ cd 404_not_found/
 
 # Open the index.html
 ```
