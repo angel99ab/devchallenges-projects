@@ -350,6 +350,10 @@ main {
     margin-bottom: 239px;
   }
 
+  .navigation {
+    max-width: 550px;
+  }
+
   .navigation__list {
     font-size: 18px;
   }
@@ -400,6 +404,10 @@ main {
 @media (min-width: 1600px) {
   header {
     margin-bottom: 100px;
+  }
+
+  .navigation {
+    max-width: 650px;
   }
 
   .project__body {
